@@ -21,3 +21,19 @@ myHeading.textContent = vol_input.innerHTML;*/
     var texts = document.querySelector('h2');
     texts.textContent = e.target.value;
  }
+
+ // audio object
+ var audio_obj = document.getElementById('horn-sound');
+ // set audio volume level accordingly
+ audio_obj.volume = 0.1;
+
+ // stop honk button from reloading the page and play the sound
+ var sound_button = document.getElementById('honk-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+    audio_obj.play();
+ });
+
+
+
+
