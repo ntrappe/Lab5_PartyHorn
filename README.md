@@ -2,7 +2,7 @@
 JS Intro &amp; Github Action 
 
 ### Nicole Trappe
-ntrappe@ucsd.edu
+ntrappe@ucsd.edu <br/>
 A15003578
 
 ### Published Site
